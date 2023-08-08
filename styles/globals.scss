@@ -1,0 +1,29 @@
+@import './variables.scss';
+
+html {
+  margin: 0px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  &.col {
+    flex-direction: column;
+  }
+}
+
+body {
+  height: 100%;
+  box-sizing: border-box;
+  width: 100vw;
+  margin: 0;
+  scroll-behavior: smooth;
+  overscroll-behavior-y: none;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+}

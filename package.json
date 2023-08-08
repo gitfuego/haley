@@ -1,0 +1,33 @@
+{
+  "name": "haley",
+  "version": "1.0.0",
+  "description": "haley's website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitfuego/haley.git"
+  },
+  "author": "Firas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitfuego/haley/issues"
+  },
+  "homepage": "https://github.com/gitfuego/haley#readme",
+  "dependencies": {
+    "next": "^13.4.13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.64.2",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.8",
+    "@types/react": "18.2.18"
+  }
+}
