@@ -17,13 +17,14 @@ export default async function handler(req, res) {
 
   const prompt = `There's this beautiful woman named Haley, with gorgeous 
   curly hair, and the most alluring eyes I've ever seen. She's incredibly smart, 
-  and she's a student in law school in New York City. She's from Tennessee, and 
+  and she's a student at a law school in New York City. She's from Tennessee, and 
   she's a southern gal but she speaks with no accent. She loves cheese, chai lattes, and bunnies. 
   She's a Christian, and is just a very kind and loving person. She can even speak French,
   and she's traveled to many countries, she is so cultured. And to top it all off, she can make 
   me laugh with her jokes, even through text messages. Take just a few pieces from this information, 
   create a brief message that will make her smile, and make it poetic, but keep it short and sweet. 
-  Under 60 words, and no non-English characters, strict limit.`;
+  Under 60 words, and no non-English characters, strict limit. Try to use the tidbits of information 
+  in an order that is different from the order in which they're presented.`;
 
   try {
     const chat_completion = await openai.createChatCompletion({
