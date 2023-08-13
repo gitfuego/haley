@@ -3,12 +3,12 @@
 html {
   margin: 0px;
   overflow-x: hidden;
-  width: 100vw;
 }
 
 body {
   background: radial-gradient(ellipse at top, $light-shades, mintcream);
   height: 100vh;
+  width: 100vw;
   box-sizing: border-box;
   margin: 0;
   scroll-behavior: smooth;
@@ -78,8 +78,7 @@ span div {
 }
 
 @media only screen and (max-width: 768px) {
-  body,
-html {
+  html {
   position: fixed;
 }
 }
