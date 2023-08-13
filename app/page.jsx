@@ -11,7 +11,6 @@ export default function Page() {
         <AIContainer />
       </section>
       <section>
-        <FadeIn>
             <div className='picholder'>
               <span className='flex'> 
                 <div>
@@ -36,7 +35,6 @@ export default function Page() {
                 </div>
               </span>
             </div>
-        </FadeIn>
       </section>
     </div>
   );
