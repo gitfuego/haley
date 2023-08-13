@@ -11,6 +11,7 @@ export default function Page() {
         <AIContainer />
       </section>
       <section>
+        {/* <div className='pic-outer'> */}
             <div className='picholder'>
               <span className='flex'> 
                 <div>
@@ -35,6 +36,7 @@ export default function Page() {
                 </div>
               </span>
             </div>
+          {/* </div> */}
       </section>
     </div>
   );
